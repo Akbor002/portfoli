@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(0,0,0,0.8);
+    font-family: serif;
+    color: white;
+}
+.navbar {
+    background:#444;
+    width: 100%  !important;
+}
+.nav-link,
+.navbar-brand {
+    color:white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.nav-link {
+  padding-left: 1rem  !important;
+    
+}
+.nav-link:hover {
+    color: greenyellow;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.header {
+  background-size: cover;
+  background-position: center;
+  top: 65px;
+}
+.overlay{
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.name{
+color:red; 
+font-weight: bolder;
+
+}
+.img img{
+  width: 100%;
+}
+
+.discription h1{
+  font-size:2.3rem;
+  padding: 5%;
+}
+.discription p{
+  color: rgba(1000,1000,1000,0.8);
+  font-size: 1rem;
+}
+.main{
+  background:white;
+  color: black ;
+  padding: 10rem 2rem;
+}
+.aboutMe{
+  color: black;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.about-sec1 img{
+width: 100%;  
+}
+.center-dic{
+  padding: 5%;
+}
+.center-dic h1{
+ font-size:2.2rem;
+ color: green
+}
+.center-dic p{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+}
+.other-project {
+  background: rgba(0,0,0,0.1)!important;
+  color: red;
+  padding: 5rem 1rem;
+}
+.post{
+  background: rgba(0,0,0,0.6);
+  display: inline;
+  margin:0 !important;
+  padding: 1rem !important;
+  border: 1rem solid rgba(50,50,50,0.9);
+  border-radius: 2rem;
+}
+.post-thumb-overlay{
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.0));
+    color: white;
+    padding: 2rem;
+  }
+ 
+ .post-thumb-overlay h3 {
+   display: inline-block;
+   padding:10rem 0rem 0rem 0rem;
+ }
+.post-text{
+  padding: 1rem 1rem;
+  display: inline-block;
+  color: rgba(1000,1000,1000,0.7)
+}
+.post-info{
+  color: rgba(1000,1000,1000,0.6);
+  display: block;
+  padding-top: 15px;
+  font-size: 12px;
+}
+.post-btn{
+  text-align: right;
+  display: block;
+}
+.contact-div{
+  background: rgba(100,1000,200,0.1);
+  padding: 5rem;
+  
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+ .overlay{
+   position:relative;
+   left: 0;
+   top: 0;
+   background: rgba(0, 0, 0, 0.6);
+   color: white
+ }
+.discription h1 {
+  font-size: 2rem;
+  padding: 3%;
+}
+
+}
